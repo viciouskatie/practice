@@ -13,7 +13,6 @@ let diesel = new animal(4, "Diesel", 1, "American Bully")
 
 let pets = [giz, lil, rox, diesel]
 
-// using map
 pets.map(animal => {
   Object.keys(animal).map(key => {
     console.log(key, animal[key])
